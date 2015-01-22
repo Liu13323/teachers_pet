@@ -23,7 +23,7 @@ gem install teachers_pet
 
 If you've used this tool before, get the newest version using
 
-```ruby
+```bash
 gem update teachers_pet
 ```
 
@@ -44,8 +44,8 @@ To use the latest-and-greatest code from this repository, see the instructions i
 1. Run the following:
 
     ```bash
-    teachers_pet create_student_teams ...
-    teachers_pet add_to_team --members Owners.csv ...
+    teachers_pet create_student_teams --organization ORGANIZATION
+    teachers_pet add_to_team --members Owners.csv --organization ORGANIZATION
     ```
 
 ### Assignments
